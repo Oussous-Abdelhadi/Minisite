@@ -1,0 +1,105 @@
+style.css
+
+ h1{
+	font-family: FreeMono, monospace;
+	position: relative;
+	top: 0px;
+	left: 10px;
+	color: blanc;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.img-acc{
+	animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 50%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.entt{
+	color: black;
+	position: absolute;
+	right: 100px;
+	top: 30px;
+	text-decoration: none;
+	word-spacing: 1em;
+
+}
+
+button{
+	background-color: #3367b8;
+	color: white;
+}
+
+
+.image-gauche{
+	float:left;
+	flex: 2;
+	width: 30%;
+	vertical-align: middle;
+}
+
+.conteneur-image-text{
+	display: flex;
+}
+
+.text-presentation{
+	flex: 6;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+hr{
+	margin-top: 20px;
+}
+
+.image-html-css{
+	float:center;
+	flex: 2;
+	width: 40%;
+	vertical-align: middle;
+}
+
+.conteneur-image-text-experience{
+	position: relative;
+	text-align: center;
+}
+
+.h2projet{
+	position: relative;
+	text-align: center;
+}
+
+table{
+	border-collapse: collapse; 
+	text-align: center ;
+}
+
+.t2 td, .t3 td, .t4 td{
+	border: 2px solid black;
+	padding: 20px;
+}
+
+.imgespaceagro{
+	text-align:center;
+margin:auto;
+display:flex;
+width: 60%;
+}
+
+.espaceagrocom{
+	text-align: center;
+}
